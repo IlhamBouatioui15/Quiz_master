@@ -32,7 +32,7 @@ audio_thread = None
 
 # Configuration de la base de données et de la connexion utilisateur
 app.config['SECRET_KEY'] = 'secretkey'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:Inscription2004@localhost/master_quiz'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://username:password@localhost/master_quiz'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 login_manager = LoginManager(app)
