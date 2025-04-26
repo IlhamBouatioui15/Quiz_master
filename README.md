@@ -30,7 +30,7 @@ Master Quiz is an interactive educational platform designed to enhance learning 
 
 1. Clone repository:
 ```bash
-https://github.com/IlhamBouatioui15/Master-Quizz.git
+https://github.com/IlhamBouatioui15/Quiz_master.git
 ```
 2. Create environement :In your project directory (where your Python files are):
 ```bash  
